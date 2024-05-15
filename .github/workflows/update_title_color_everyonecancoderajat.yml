@@ -7,7 +7,7 @@ name: Build and deploy Python app to Azure Web App - everyonecancoderajat
 on:
   push:
     branches:
-      - update_title_color
+      - main
   workflow_dispatch:
 
 jobs:

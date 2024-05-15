@@ -9,6 +9,9 @@
         <router-view :key="screen" class="router-view-c"></router-view>
       </vue-page-stack>
     </transition>
+    <div class="footer">
+      Made with love ❤️
+    </div>
   </div>
 </template>
 
@@ -54,6 +57,18 @@ export default class App extends Vue {
     border-radius: 5px;
     padding: 15px;
     margin: 5px 0;
+  }
+
+  footer { 
+    background-color: white; 
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    color: black;
+    font-size: 14px;
+    text-align: center;
   }
 
   .cube-input {
